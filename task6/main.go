@@ -13,7 +13,7 @@ import (
 
 func main() {
 	// 1. Setup MongoDB Connection
-	uri := "mongodb+srv://welelabekeleug_db_user:q9sC8pS2xZJYfWZJ@cluster0.n6xzoew.mongodb.net//task6?retryWrites=true&w=majority"
+	uri := "mongodb+srv://welelabekeleug_db_user:password@cluster0.n6xzoew.mongodb.net//task6?retryWrites=true&w=majority"
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
